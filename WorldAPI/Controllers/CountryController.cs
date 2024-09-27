@@ -12,7 +12,7 @@ namespace WorldAPI.Controllers
         public readonly ApplicationDbContext _dbContext;
         public CountryController(ApplicationDbContext dbContext)
         {
-            _dbContext = dbContext;
+            _dbContext = dbContext; 
         }
 
         [HttpPost]
